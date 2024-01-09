@@ -1,6 +1,7 @@
 #![no_std]
 #![feature(core_intrinsics)]
 #![feature(naked_functions)]
+#![allow(internal_features)]
 
 // Syscalls.
 pub mod caps;
